@@ -1,5 +1,5 @@
 require "emoji/rspec/formatters"
 
-if defined? RSpec
+if defined? RSpec::Core::Hooks
   require "emoji/rspec/integration"
 end

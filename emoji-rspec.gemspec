@@ -6,12 +6,12 @@ require 'emoji/rspec/version'
 Gem::Specification.new do |gem|
   gem.name          = "emoji-rspec"
   gem.version       = Emoji::RSpec::VERSION
-  gem.authors       = ["Aaron Kromer"]
+  gem.authors       = ["Aaron Kromer", "Derek Bender"]
   gem.description   = %q{Custom formatters for RSpec tests.}
   gem.summary       = %q{Emoji RSpec Formatters}
   gem.homepage      = "https://github.com/cupakromer/emoji-rspec"
 
-  gem.add_dependency "rspec", '~> 2.10'
+  gem.add_dependency "rspec", '~> 2.13'
   gem.add_development_dependency "rspec"
   gem.add_development_dependency "rake"
 
